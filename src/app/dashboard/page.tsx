@@ -12,10 +12,9 @@ import {
   FaFolder, 
   FaCalendarCheck,
   FaBell,
-  FaSearch,
-  FaEllipsisV
+  FaSearch
 } from "react-icons/fa";
-import { getCurrentUser } from '../utils/userManagement';
+
 
 const stats = [
   { label: "Total Employees", value: "1,285", icon: FaUsers, change: "+12%", color: "blue" },
@@ -191,7 +190,7 @@ export default function DashboardPage() {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-blue-800/90" />
             <div className="absolute inset-0 p-8 flex flex-col justify-end">
               <h1 className="text-4xl font-bold text-white mb-2">Welcome back, {user?.name || 'User'}!</h1>
-              <p className="text-blue-100">Here's what's happening with your projects today.</p>
+             <p className="text-blue-100">Here&apos;s what&apos;s happening with your projects today.</p>
             </div>
           </div>
 

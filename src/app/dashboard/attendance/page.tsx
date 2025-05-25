@@ -1,7 +1,7 @@
 "use client";
-import { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCalendarAlt, FaClock, FaUser, FaSpinner, FaCheck, FaTimes, FaFilter, FaSearch, FaUserClock } from "react-icons/fa";
+import { FaCalendarAlt, FaFilter, FaSearch, FaUserClock } from "react-icons/fa";
 
 const attendanceData = [
   {
